@@ -1,0 +1,32 @@
+{
+  "name": "public-diary",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.30.0",
+    "@upstash/redis": "^0.2.1",
+    "axios": "^0.26.0",
+    "braintree-web": "^3.85.2",
+    "braintree-web-drop-in": "^1.33.0",
+    "next": "12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "reactstrap": "^9.0.1",
+    "rt-storage": "^0.1.0",
+    "use-global-storage": "^0.1.0",
+    "write-file-p": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  }
+}

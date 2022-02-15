@@ -1,0 +1,1 @@
+Esse é o repositório do site Public Diary, fique a vontade para explorar o código!

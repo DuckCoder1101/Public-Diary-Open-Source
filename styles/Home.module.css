@@ -1,0 +1,212 @@
+.container {
+   min-height: max-content;
+   min-width: max-content;
+   padding: 0 0.5rem;
+}
+
+.input_area {
+   position: fixed;
+   display: flex;
+   flex-direction: row;
+   left: 0px;
+   top: 0px;
+   background-color: transparent;
+   border: 1px solid black;
+   border-right: transparent;
+   width: 16%;
+   height: auto;
+   max-height: 100%;
+   overflow-y: auto;
+   z-index: 5;
+   justify-content: center;
+}
+
+.textarea {
+   position: relative;
+   margin: 2px;
+   margin-right: 5px;
+   padding: 0px;
+   height: auto;
+   overflow-y: hidden;
+   border: transparent;
+   resize: none;
+   background-color: transparent;
+   outline: none;
+   font-family: Arial;
+   font-size: 0.8vw;
+   width: 60%;
+}
+
+.sendButton {
+   position: relative;
+   margin: auto;
+   margin-left: 2px;
+   padding: 0px;
+   background-color: rgba(255, 255, 255, 0.623);
+   border: transparent;
+   width: 2.5vw;
+   border-radius: 3px;
+   height: 30px;
+   font-family: Arial;
+   font-size: 0.7vw;
+   font-weight: 500;
+}
+
+.sendButton:hover {
+   background-color: rgba(218, 217, 217, 0.623);
+   border: 1px solid black;
+}
+
+.sendPrivateButton {
+   position: relative;
+   margin: auto;
+   margin-left: 2px;
+   margin-right: 3px;
+   padding: 0px;
+   background-color: rgba(255, 255, 255, 0.623);
+   border: transparent;
+   width: 3vw;
+   border-radius: 3px;
+   height: 30px;
+   font-family: Arial;
+   font-size: 0.7vw;
+   font-weight: 500;
+}
+
+.sendPrivateButton:hover {
+   background-color: rgba(218, 217, 217, 0.623);
+   border: 1px solid black;
+}
+
+.public_text {
+   position: absolute;
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 100%;
+   width: 84%;
+   right: 0px;
+   z-index: 0;
+   border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+   font-size: medium;
+   font-family: Arial;
+}
+
+.private_text {
+   position: absolute;
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 100%;
+   width: 84%;
+   right: 0px;
+   z-index: -5;
+   opacity: 0;
+   border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+   font-size: medium;
+   font-family: Arial;
+}
+
+.setTalk {
+   position: fixed;
+   top: 8px;
+   right: 8px;
+   z-index: 5;
+   opacity: 1;
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 5px;
+   transition: 350ms;
+   width: 2.8vw;
+}
+
+.setTalk:hover {
+   transform: scale(1.2);
+}
+
+.input_area_mobile {
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   height: 4%;
+   background-color: transparent;
+   z-index: 5;
+   padding: 0px;
+   left: 0px;
+}
+
+.textarea_mobile {
+   position: relative;
+   width: 70%;
+   max-height: 100%;
+   overflow-y: hidden;
+   border: transparent;
+   resize: none;
+   background-color: transparent;
+   outline: none;
+   font-family: Arial;
+}
+
+.public_text_mobile {
+   position: absolute;
+   overflow-y: auto;
+   overflow-x: hidden;
+   bottom: 0px;
+   height: 96%;
+   width: 100%;
+   right: 0px;
+   z-index: 0;
+   border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+   font-size: medium;
+   font-family: Arial;
+}
+
+.private_text_mobile {
+   position: absolute;
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 96%;
+   width: 100%;
+   bottom: 0px;
+   right: 0px;
+   z-index: -5;
+   opacity: 0;
+   border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+   font-size: medium;
+   font-family: Arial;
+}
+
+.sendButton_mobile {
+   position: absolute;
+   z-index: 5;
+   opacity: 1;
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 5px;
+   transition: 350ms;
+   width: 20%;
+   left: 75%;
+   top: 25%;
+}
+
+.loading {
+   position: relative;
+   z-index: 10;
+   width: min-content;
+   margin: 0px;
+   margin-top: 20%;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: xx-large;
+   background-color: transparent;
+}
