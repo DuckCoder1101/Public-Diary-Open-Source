@@ -1,0 +1,30 @@
+.footer {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  bottom: -120px;
+  right: 0px;
+  display: flex;
+  flex: 1;
+  line-break: normal;
+  padding: 0;
+  border-top: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb( 20, 150, 236);
+  z-index: 5;
+}
+
+.footer * {
+  position: relative;
+  margin: 10px;
+}
+
+.footer_icon {
+  border-radius: 50%;
+  transition: 350ms;
+}
+
+.footer_icon:hover {
+  transform: scale(1.15);
+}
