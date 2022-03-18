@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import { auth, get, set } from '@upstash/redis'
 import Footer from "../components/footer.js"
 
-auth("https://gusc1-literate-polecat-31310.upstash.io", "AXpOASQgYTA2Y2Q5NTYtYWFjMy00ZDU4LTlkYmUtYmVhNGQwNDUwMjkyNjE4OTBmOTk3NGM2NDMyNjk5MGZjNmVhOGQ3NzQ1NmU=");
+auth("", "");
 
 export default function Home() {
 
